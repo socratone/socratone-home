@@ -16,8 +16,8 @@ const StyledGlobalNav = styled.div`
   height: 50px;
 
   @media only screen and (max-width: 600px) {
+    position: sticky;
     top: 0;
-    width: 100%;
     height: ${mobileGlobalNavHeight}px;
     background: #fff;
     border-bottom: 1px solid ${border};
