@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import Image, { ImageProps } from 'next/image';
+import { border } from '../../../constants/color';
 
 interface IItemCardProps {
   title: string;
@@ -10,7 +11,7 @@ interface IItemCardProps {
 
 const StyledItemCard = styled.a`
   padding: 20px 30px 20px 15px;
-  border: 1px solid #00000010;
+  border: 1px solid ${border};
   border-radius: 5px;
   transition: background 150ms ease-out, border 150ms ease-out,
     transform 150ms ease-out;
